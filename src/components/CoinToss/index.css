@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.mainBg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 39px;
+  gap: 20px;
+}
+.head {
+  color: #a35200;
+  font-size: 60px;
+}
+.info {
+  color: #334155;
+}
+.img {
+  width: 170px;
+}
+.btn {
+  padding: 8px 16px;
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 8px;
+  border: 0px;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
